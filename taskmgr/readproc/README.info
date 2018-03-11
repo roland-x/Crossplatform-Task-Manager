@@ -1,0 +1,20 @@
+This is a library package for working on the 
+/proc directory.
+It is build for looking after Jobs wich are running,
+e.g. for a watching daemon or something like that.
+
+The methods, wich may be used are
+	short int is_present(char * jobname)
+	wich searches after a job with the name jobname
+	and
+	struct Root * read_proc(void)
+	wich reads the /proc directory especially the
+	/proc/<pid>/status file.
+
+I designed this Library because I heared of a lot of 
+people, wich liked to have some kind of procps for C
+and not for the command line.
+
+Read the code if you want to know how it works.
+
+Daniel Knuettel 2014

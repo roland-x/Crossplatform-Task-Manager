@@ -1,0 +1,11 @@
+There is no real installation of this package,
+because you may use this to create your own programs.
+
+There  is a file called 'test.c', use 'make test'
+to test the librarys after you have edited 'test.c'.
+
+Use 'make ' to compile all files, excepted 'test.c',
+then you can include the Librarys and headers to your 
+own programs.
+
+Finally: have fun with it.
